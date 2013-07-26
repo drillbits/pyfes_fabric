@@ -21,7 +21,7 @@ def remote_uname():
 
 
 # hosts
-def local():
+def localhost():
     env.hosts = ["localhost"]
     env.user = "pyfes"
     # env.key_filename = "id_rsa"
